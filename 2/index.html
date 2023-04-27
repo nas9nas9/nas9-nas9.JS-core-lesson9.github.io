@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="note">
+        <div class="list">
+            <div class="list_header">Список завдань</div>
+            <form action="#" class="list_form">
+                <input type="checkbox" id="HTML5" value="HTML5">
+                <label for="HTML5">HTML5</label><br>
+                <input type="checkbox" id="CSS3" value="CSS3">
+                <label for="CSS3">CSS3</label><br>
+                <input type="checkbox" id="SASS" value="SASS">
+                <label for="SASS">SASS/SCSS</label><br>
+                <input type="checkbox" id="Bootstrap" value="Bootstrap">
+                <label for="Bootstrap">Bootstrap</label><br>
+            </form>
+        </div>
+        <div class="list">
+            <div class="list_header">Додати нове завдання</div>
+            <form name="new_list_form">
+                <input type="text" class="text" name="input1" id="">
+                <input type="button" class="button" name="add" value="додати">
+            </form>
+        </div>
+        <div class="modal1">
+            <h3 class="advance">Попередження!</h3>
+            <p class="modal_text">Пусте поле не можна добавити!</p>
+            <button class="modal_close close1">&#10006</button>
+
+        </div>
+        <div class="modal2">
+            <h3 class="advance">Попередження!</h3>
+            <p class="modal_text">Останній таск зі списку Ви не можете видалити</p>
+            <button class="modal_close close2">&#10006</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
